@@ -1,0 +1,52 @@
+static void Main(string[] args)
+        {
+            int x = soucet(2, 3);//zavolá metodu soucet s argumenty 2 a 3, a její návratovou hodnotu přiřadí do proměnné x.
+            Console.WriteLine(x);//vypíše hodnotu proměnné x na konzoli.
+            string jmeno = Console.ReadLine();//načte řetězec ze vstupu a přiřadí ho do proměnné jmeno.
+            int vek = Convert.ToInt32(Console.ReadLine());//načte řetězec ze vstupu a převede ho na celé číslo, které přiřadí do proměnné vek.
+            uzivatel(jmeno, vek);//zavolá metodu uzivatel s argumenty jmeno a vek.
+            int[] ints = { 1, 2,3, 854, 545, 54 };//vytvoří pole celých čísel obsahujících hodnoty 1, 2, 3, 854, 545 a 54.
+            Console.WriteLine(NejvysiHodnota(ints));//zavolá metodu NejvysiHodnota s argumentem ints a vypíše její návratovou hodnotu na konzoli.
+        }
+        static int soucet(int x, int y)//deklaruje statickou metodu soucet, která přijímá dva argumenty x a y, sečte je a vrátí výsledek.
+        {
+            int z = x + y;
+            return z;
+        }
+        static void uzivatel(string jmeno, int vek)//deklaruje statickou metodu uzivatel, která přijímá dva argumenty jmeno a vek, spojí je dohromady a vypíše je na konzoli.
+        {
+            Console.WriteLine(jmeno + vek);
+        }
+        static int NejvysiHodnota(int[] ints)//deklaruje statickou metodu NejvysiHodnota, která přijímá pole celých čísel ints a vrátí nejvyšší hodnotu v poli. Tuto hodnotu vrací metodou Max(), která je volána na objektu pole ints.
+        {
+            return ints.Max();
+        }
+
+
+
+
+
+static void Main(string[] args)
+        {
+            Console.WriteLine("Hello, World!");
+            int x = soucet(2, 3);
+            Console.WriteLine(x);
+            string jmeno = Console.ReadLine();
+            int vek = Convert.ToInt32(Console.ReadLine());
+            uzivatel(jmeno, vek);
+            int[] ints = { 1, 2,3, 854, 545, 54 };
+            Console.WriteLine(NejvysiHodnota(ints));
+        }
+        static int soucet(int x, int y)
+        {
+            int z = x + y;
+            return z;
+        }
+        static void uzivatel(string jmeno, int vek)
+        {
+            Console.WriteLine(jmeno + vek);
+        }
+        static int NejvysiHodnota(int[] ints)
+        {
+            return ints.Max();
+        
