@@ -1,0 +1,41 @@
+1. Vytvořte metodu, která přijme jako parametr pole celých čísel a int x a navrátí průměrnou 
+hodnotu x posledních prvků vstupního pole jako výstupní hodnotu.
+
+In:
+[12, 33, 20, 1, 2, 3], 3
+
+Out:
+Prumerne cislo z [1, 2, 3] je 2
+
+------------------------------------------------------------------------------------------------------------
+
+2.  Vytvořte metodu, která přijme jako parametr pole celých čísel a navrátí pole, které bude
+obsahovat jen sudá čísla z vstupního pole.
+
+In:
+[12, 33, 20, 1, 2, 3]
+
+Out:
+Suda cisla z [12, 33, 20, 1, 2, 3] jsou 12, 20, 2
+
+------------------------------------------------------------------------------------------------------------
+
+3. Vytvořte metodu, která přijme jako parametr pole celých čísel a int x a navrátí pole, 
+které bude obsahovat jen prvky ostře větší než x.
+
+In:
+[12, 33, 20, 1, 2, 3], 12
+
+Out:
+Prvky vetsi nez 12 jsou 33, 20
+
+------------------------------------------------------------------------------------------------------------
+
+4. Vytvořte metodu, která přijme jako parametry dvě pole desetinných čísel stejné délky a vrátí jako výstupní
+hodnotu pole, které bude obsahovat větší z obou čísel na každém indexu.
+
+In:
+[12, 33, 20, 1, 2, 3], [21, 14, 20, 4, 1, 20]
+
+Out:
+Sloucene pole vetsich cisel je: [21, 33, 20, 4, 2, 20]
